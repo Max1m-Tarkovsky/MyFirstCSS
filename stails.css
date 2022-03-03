@@ -1,0 +1,204 @@
+body {
+    background: bisque;
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Academy Engraved LET", serif;
+
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    padding-top: 30px;
+}
+
+.avatar {
+    width: 300px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+@media (max-width: 700px) {
+    .info{
+        text-align: center ;
+        display: block;
+    }
+}
+
+.info p {
+    color: coral;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+
+    /*text-transform: lowercase;*/
+    /*letter-spacing: 5px;*/
+    /*word-spacing: 42px;*/
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: grey;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.bg-yellow {
+    background: yellow;
+}
+
+.bg-green {
+    background: cornflowerblue;
+}
+
+.bg-red {
+    background: red;
+}
+
+.bg-red h2 {
+    color: green;
+}
+
+.bg-red a {
+    color: green;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+}
+
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.diana {
+    width: 100%;
+
+}
+
+.diana td {
+    padding-bottom: 10px;
+}
+
+.diana td:nth-child(2),
+.diana td:nth-child(3) {
+    color: yellow;
+}
+
+.link-list {
+    list-style: none;
+    padding: 0px;
+}
+
+
+.link-list li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: black;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    font-family: inherit;
+    background: transparent;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 100%;
+    margin-right: 20px;
+}
+.btn{
+   background: coral;
+    padding: 15px 20px;
+    color: blue;
+    border: none;
+    font-family: inherit;
+    cursor:pointer;
+}
+.btn:hover{
+    opacity: 0.9;
+}
+
+/*
+.diana tr:nth-child(even){
+    background: green;
+}.diana tr:nth-child(odd){
+    background: darkslateblue;
+}
+*/
+
+/*
+.social {
+    background: coral;
+    padding: 15px;
+    margin: 5px;
+    border: 5px solid red;
+    border-bottom-color: darkgreen;
+    border-top-color: darkgreen;
+}
+*/
+
+/*
+.box-model > div {
+    float: left;
+    background: black;
+    height: 200px;
+    width: 25%;
+     box-sizing: border-box;
+}*/
